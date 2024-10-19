@@ -52,10 +52,10 @@ function Header() {
             </div>
             <nav>
                 <NavLink onClick={AddClassActive} className='navigation' to="/">HOME</NavLink>
-                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}//Mahmoudou_Portfolio/#about`}>ABOUT</a>
-                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/Mahmoudou_Portfolio/#skills`}>SKILLS</a>
-                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/Mahmoudou_Portfolio/#projects`}>PROJECTS</a>
-                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/Mahmoudou_Portfolio/#contact`}>CONTACT</a>
+                <a onClick={AddClassActive}  className='navigation' href="#about">ABOUT</a>
+                <a onClick={AddClassActive}  className='navigation' href="#skills">SKILLS</a>
+                <a onClick={AddClassActive}  className='navigation' href="#projects">PROJECTS</a>
+                <a onClick={AddClassActive}  className='navigation' href="#contact">CONTACT</a>
             </nav>
             <div onClick={AddClassActive} className='menu-hamburger'>
                     <i className="fa-solid fa-bars"></i>
