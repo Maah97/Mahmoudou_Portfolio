@@ -53,6 +53,8 @@ function Presentation() {
         let speed = 80;
         let index = 0;
         const titlePortfolio = txtPresentationParagrapheTitre.current;
+        console.log(titlePortfolio);
+        
         let text = "";
         function effacer() {
             text = text.slice(0,-1);
