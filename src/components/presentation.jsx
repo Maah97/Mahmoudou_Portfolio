@@ -82,13 +82,11 @@ function Presentation() {
                  },3000);
             }
         }
-        return () => {
-            console.log("hello");
-            
-            write();
-        };
+        setTimeout(() => {
+            return write();      
+         },2000);
         
-    },[txtPresentationParagrapheTitre])
+    })
     return (
         <article ref={containRef} className="presentation">
             <div className='bloc-de-presentation'>
