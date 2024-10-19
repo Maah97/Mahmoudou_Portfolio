@@ -83,6 +83,8 @@ function Presentation() {
             }
         }
         return () => {
+            console.log("hello");
+            
             write();
         };
         
