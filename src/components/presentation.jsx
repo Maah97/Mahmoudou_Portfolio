@@ -1,8 +1,8 @@
 import { useEffect, useRef, useMemo } from "react";
-import ImgOrdi from '../assets/ordi.png';
-import FrIcone from '../assets/fr-language-icon.png';
-import EnIcone from '../assets/en-language-icon.png';
-import imgTwitter from '../assets/twitter.png';
+import ImgOrdi from '../assets/ordi.webp';
+import FrIcone from '../assets/fr-language-icon.webp';
+import EnIcone from '../assets/en-language-icon.webp';
+import imgTwitter from '../assets/twitter.webp';
 import CV from '../assets/CV_MAHMOUDOU_ANGLAIS.pdf';
 
 function Presentation() {

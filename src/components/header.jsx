@@ -2,7 +2,7 @@ import React from "react";
 import { HashLink } from "react-router-hash-link";
 import { useEffect, useRef, useMemo } from "react";
 import { NavLink } from 'react-router-dom';
-import photoProphile from '../assets/Photo-profil.jfif'
+import photoProphile from '../assets/Photo-profil.webp'
 
 function Header() {
     function AddClassActive() {
