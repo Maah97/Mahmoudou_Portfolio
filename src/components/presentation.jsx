@@ -53,8 +53,6 @@ function Presentation() {
         let speed = 80;
         let index = 0;
         const titlePortfolio = txtPresentationParagrapheTitre.current;
-        console.log(titlePortfolio);
-        
         let text = "";
         function effacer() {
             text = text.slice(0,-1);
@@ -85,12 +83,10 @@ function Presentation() {
             }
         }
         return () => {
-            setTimeout(() => {
-                return write();      
-             },2000);
+            write();
         };
         
-    },[txtPresentationParagrapheTitre, txt])
+    },[txtPresentationParagrapheTitre])
     return (
         <article ref={containRef} className="presentation">
             <div className='bloc-de-presentation'>
