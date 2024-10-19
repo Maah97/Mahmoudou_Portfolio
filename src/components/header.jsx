@@ -1,10 +1,10 @@
+import React from "react";
+import { HashLink } from "react-router-hash-link";
 import { useEffect, useRef, useMemo } from "react";
 import { NavLink } from 'react-router-dom';
 import photoProphile from '../assets/Photo-profil.jfif'
 
 function Header() {
-    const urlActuelle = window.location.href;
-    const addresseRacine = urlActuelle.split("/")[2];
     function AddClassActive() {
         const menu = document.querySelector('nav');
         menu.classList.toggle('active');
@@ -52,10 +52,10 @@ function Header() {
             </div>
             <nav>
                 <NavLink onClick={AddClassActive} className='navigation' to="/">HOME</NavLink>
-                <a onClick={AddClassActive}  className='navigation' href="#about">ABOUT</a>
-                <a onClick={AddClassActive}  className='navigation' href="#skills">SKILLS</a>
-                <a onClick={AddClassActive}  className='navigation' href="#projects">PROJECTS</a>
-                <a onClick={AddClassActive}  className='navigation' href="#contact">CONTACT</a>
+                <HashLink onClick={AddClassActive}  className='navigation' to="/#about">ABOUT</HashLink>
+                <HashLink onClick={AddClassActive}  className='navigation' to="/#skills">SKILLS</HashLink>
+                <HashLink onClick={AddClassActive}  className='navigation' to="/#projects">PROJECTS</HashLink>
+                <HashLink onClick={AddClassActive}  className='navigation' to="/#contact">CONTACT</HashLink>
             </nav>
             <div onClick={AddClassActive} className='menu-hamburger'>
                     <i className="fa-solid fa-bars"></i>
