@@ -47,11 +47,12 @@ function Presentation() {
     }, [containRef, options]);
 
     const txt = "HELLO, WELCOME TO MY PORTFOLIO OF WEB DEVELOPER";
+    const txtPresentationParagrapheTitre = useRef(null);
     
     useEffect(() => {
         let speed = 80;
         let index = 0;
-        const titlePortfolio = document.querySelector('.txt-presentation-paragraphe-title');
+        const titlePortfolio = txtPresentationParagrapheTitre.current;
         let text = "";
         function effacer() {
             text = text.slice(0,-1);
@@ -104,7 +105,7 @@ function Presentation() {
                 </div>
                 <div className='txt-presentation'>
                     <h1>HELLO, WELCOME TO MY PORTFOLIO OF WEB DEVELOPPER</h1>
-                    <div className="txt-presentation-paragraphe-title"></div>
+                    <div ref={txtPresentationParagrapheTitre} className="txt-presentation-paragraphe-title"></div>
                     <p className="txt-presentation-paragraphe">My name is Mahmoudou Abdoul Nganiyyou and i'm a Result-Oriented fullstack Developer building and managing Websites and Web Applications that leads to the success of the overall product</p>
                     <a className="cv" href={CV} download="CV_Mahmoudou.pdf" rel='noreferrer' target='_blank'>Download my CV</a>
                 </div>
