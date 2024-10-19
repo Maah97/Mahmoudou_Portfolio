@@ -90,7 +90,7 @@ function Presentation() {
              },2000);
         };
         
-    },[txtPresentationParagrapheTitre, txt])
+    },[])
     return (
         <article ref={containRef} className="presentation">
             <div className='bloc-de-presentation'>
