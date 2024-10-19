@@ -51,7 +51,7 @@ function Header() {
                 <p>MAHMOUDOU ABDOUL NGANIYYOU</p>
             </div>
             <nav>
-                <NavLink onClick={AddClassActive} className='navigation' to="/Mahmoudou_Portfolio">HOME</NavLink>
+                <NavLink onClick={AddClassActive} className='navigation' to="/">HOME</NavLink>
                 <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}//Mahmoudou_Portfolio/#about`}>ABOUT</a>
                 <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/Mahmoudou_Portfolio/#skills`}>SKILLS</a>
                 <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/Mahmoudou_Portfolio/#projects`}>PROJECTS</a>
