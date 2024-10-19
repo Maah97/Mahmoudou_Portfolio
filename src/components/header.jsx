@@ -51,11 +51,11 @@ function Header() {
                 <p>MAHMOUDOU ABDOUL NGANIYYOU</p>
             </div>
             <nav>
-                <NavLink onClick={AddClassActive} className='navigation' to="/">HOME</NavLink>
-                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/#about`}>ABOUT</a>
-                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/#skills`}>SKILLS</a>
-                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/#projects`}>PROJECTS</a>
-                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/#contact`}>CONTACT</a>
+                <NavLink onClick={AddClassActive} className='navigation' to="/Mahmoudou_Portfolio">HOME</NavLink>
+                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}//Mahmoudou_Portfolio/#about`}>ABOUT</a>
+                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/Mahmoudou_Portfolio/#skills`}>SKILLS</a>
+                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/Mahmoudou_Portfolio/#projects`}>PROJECTS</a>
+                <a onClick={AddClassActive}  className='navigation' href={`http://${addresseRacine}/Mahmoudou_Portfolio/#contact`}>CONTACT</a>
             </nav>
             <div onClick={AddClassActive} className='menu-hamburger'>
                     <i className="fa-solid fa-bars"></i>
