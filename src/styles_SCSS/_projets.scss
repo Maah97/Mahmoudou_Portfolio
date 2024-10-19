@@ -72,10 +72,6 @@
     transform: translateY(30px);
 }
 
-.txt-title-projets.visible-projets {
+.txt-title-projets.visible-projets, .ligne.visible-projets {
     transition-delay: 0.5s;
-}
-
-.ligne.visible-projets {
-    transition-delay: 1s;
 }
