@@ -13,19 +13,19 @@
             "css3"
         ],
         "description": "In this project we are responsible for creating the homepage of a travel agency Booki that will allow users to find accommodation and activities in the city of their choice. This page is responsive and must adapt to different screens (Desktop, tablet and phone) The integration of the site interface is done with HTML and CSS code.",
-        "cover": "/assets/images_booki/cover_projet_1.PNG",
+        "cover": "/Mahmoudou_Portfolio/assets/images_booki/cover_projet_1.PNG",
         "pictures": [
-            "/assets/images_booki/cover_projet_1.PNG",
-            "/assets/images_booki/Desktop.png",
-            "/assets/images_booki/img.png",
-            "/assets/images_booki/img1.png",
-            "/assets/images_booki/img2.PNG",
-            "/assets/images_booki/img3.PNG",
-            "/assets/images_booki/img4.PNG",
-            "/assets/images_booki/img5.PNG",
-            "/assets/images_booki/img6.PNG",
-            "/assets/images_booki/img7.PNG",
-            "/assets/images_booki/img8.PNG"
+            "/Mahmoudou_Portfolio/assets/images_booki/cover_projet_1.PNG",
+            "/Mahmoudou_Portfolio/assets/images_booki/Desktop.png",
+            "/Mahmoudou_Portfolio/assets/images_booki/img.png",
+            "/Mahmoudou_Portfolio/assets/images_booki/img1.png",
+            "/Mahmoudou_Portfolio/assets/images_booki/img2.PNG",
+            "/Mahmoudou_Portfolio/assets/images_booki/img3.PNG",
+            "/Mahmoudou_Portfolio/assets/images_booki/img4.PNG",
+            "/Mahmoudou_Portfolio/assets/images_booki/img5.PNG",
+            "/Mahmoudou_Portfolio/assets/images_booki/img6.PNG",
+            "/Mahmoudou_Portfolio/assets/images_booki/img7.PNG",
+            "/Mahmoudou_Portfolio/assets/images_booki/img8.PNG"
         ]
     },
 
@@ -44,17 +44,17 @@
             "js"
         ],
         "description": "We are tasked for this project with finalizing the front end of the portfolio site of an interior architect named Sophie BLuel. In this project, we used JavaScript to make the site dynamic by making API calls to retrieve and transmit data. We also implemented a login system that saves the authentication token if Sophie is logged in by changing the appearance of the site and giving her the ability to add or remove projects from the site.",
-        "cover": "/assets/images_sophie/imgCoverSophie.png",
+        "cover": "/Mahmoudou_Portfolio/assets/images_sophie/imgCoverSophie.png",
         "pictures": [
-            "/assets/images_sophie/imgCoverSophie.png",
-            "/assets/images_sophie/imgSophie.png",
-            "/assets/images_sophie/imgSophie1.png",
-            "/assets/images_sophie/imgSophie2.png",
-            "/assets/images_sophie/imgSophie3.png",
-            "/assets/images_sophie/imgSophie4.png",
-            "/assets/images_sophie/imgSophie5.png",
-            "/assets/images_sophie/imgSophie6.png",
-            "/assets/images_sophie/imgSophie7.png"
+            "/Mahmoudou_Portfolio/assets/images_sophie/imgCoverSophie.png",
+            "/Mahmoudou_Portfolio/assets/images_sophie/imgSophie.png",
+            "/Mahmoudou_Portfolio/assets/images_sophie/imgSophie1.png",
+            "/Mahmoudou_Portfolio/assets/images_sophie/imgSophie2.png",
+            "/Mahmoudou_Portfolio/assets/images_sophie/imgSophie3.png",
+            "/Mahmoudou_Portfolio/assets/images_sophie/imgSophie4.png",
+            "/Mahmoudou_Portfolio/assets/images_sophie/imgSophie5.png",
+            "/Mahmoudou_Portfolio/assets/images_sophie/imgSophie6.png",
+            "/Mahmoudou_Portfolio/assets/images_sophie/imgSophie7.png"
         ]
     },
 
@@ -71,13 +71,13 @@
             "Lighthouse"
         ],
         "description": "In this project, we improved the SEO performance of a photographer's portfolio site to increase the loading speed of the site and its natural referencing in order to appear in the first results of Google. We also corrected some bugs related to the operation of the site but also some accessibility problems so that the site is readable and accessible for all types of users, even those with disabilities.",
-        "cover": "/assets/images_Nina/imgCover.png",
+        "cover": "/Mahmoudou_Portfolio/assets/images_Nina/imgCover.png",
         "pictures": [
-            "/assets/images_Nina/imgCover.png",
-            "/assets/images_Nina/imgNina1.png",
-            "/assets/images_Nina/imgNina2.png",
-            "/assets/images_Nina/imgNina3.png",
-            "/assets/images_Nina/imgNina4.png"
+            "/Mahmoudou_Portfolio/assets/images_Nina/imgCover.png",
+            "/Mahmoudou_Portfolio/assets/images_Nina/imgNina1.png",
+            "/Mahmoudou_Portfolio/assets/images_Nina/imgNina2.png",
+            "/Mahmoudou_Portfolio/assets/images_Nina/imgNina3.png",
+            "/Mahmoudou_Portfolio/assets/images_Nina/imgNina4.png"
         ]
     },
 
@@ -95,14 +95,14 @@
             "sass"
         ],
         "description": "Kasa is a peer-to-peer apartment rental company that wanted to create a react web application for their site to present the accommodations and their user ratings. We implemented the React project and developed the entire application, React components, React Router routes, following the Figma mockups (responsive!). We used Sass which is the CSS preprocessor to code the style of the application components",
-        "cover": "/assets/images_kasa/imgCoverKasa.png",
+        "cover": "/Mahmoudou_Portfolio/assets/images_kasa/imgCoverKasa.png",
         "pictures": [
-            "/assets/images_kasa/imgCoverKasa.png",
-            "/assets/images_kasa/imgKasa1.png",
-            "/assets/images_kasa/imgKasa2.png",
-            "/assets/images_kasa/imgKasa3.png",
-            "/assets/images_kasa/imgKasa4.png",
-            "/assets/images_kasa/imgKasa5.png"
+            "/Mahmoudou_Portfolio/assets/images_kasa/imgCoverKasa.png",
+            "/Mahmoudou_Portfolio/assets/images_kasa/imgKasa1.png",
+            "/Mahmoudou_Portfolio/assets/images_kasa/imgKasa2.png",
+            "/Mahmoudou_Portfolio/assets/images_kasa/imgKasa3.png",
+            "/Mahmoudou_Portfolio/assets/images_kasa/imgKasa4.png",
+            "/Mahmoudou_Portfolio/assets/images_kasa/imgKasa5.png"
         ]
     },
 
@@ -120,14 +120,14 @@
             "MongoDB"
         ],
         "description": "In this project, we developed the backend of a book rating site for a bookstore. We implemented all the API routes by respecting a well-defined specification beforehand using NodeJS for the API programming and MongoDB for the database. The BackEnd allows the user to create an account, log in, add, modify or delete a book. Security is also taken into account in this project through the use of authentication tokens.",
-        "cover": "/assets/images_livres/imgCoverLivre.png",
+        "cover": "/Mahmoudou_Portfolio/assets/images_livres/imgCoverLivre.png",
         "pictures": [
-            "/assets/images_livres/imgCoverLivre.png",
-            "/assets/images_livres/imgLivre.png",
-            "/assets/images_livres/imgLivre1.png",
-            "/assets/images_livres/imgLivre2.png",
-            "/assets/images_livres/imgLivre3.png",
-            "/assets/images_livres/imgLivre4.png"
+            "/Mahmoudou_Portfolio/assets/images_livres/imgCoverLivre.png",
+            "/Mahmoudou_Portfolio/assets/images_livres/imgLivre.png",
+            "/Mahmoudou_Portfolio/assets/images_livres/imgLivre1.png",
+            "/Mahmoudou_Portfolio/assets/images_livres/imgLivre2.png",
+            "/Mahmoudou_Portfolio/assets/images_livres/imgLivre3.png",
+            "/Mahmoudou_Portfolio/assets/images_livres/imgLivre4.png"
         ]
     },
 
@@ -144,19 +144,19 @@
             "Notion"
         ],
         "description": "We planned the development of the qwenta company's menu maker site, which will allow restaurateurs to display and lay out their menus easily in just a few clicks. To do this, we used the agile method to plan the project by defining user stories, technical and functional specifications. We created a Kanban board on Notion that allowed us to assign tasks to the different resources of the project but also allows us to follow the progress of the project in real time. We also set up a technology monitoring system to be able to be up to date with technological developments.",
-        "cover": "/assets/images_qwenta/imgCoverQwenta.png",
+        "cover": "/Mahmoudou_Portfolio/assets/images_qwenta/imgCoverQwenta.png",
         "pictures": [
-            "/assets/images_qwenta/imgCoverQwenta.png",
-            "/assets/images_qwenta/imgQwenta.png",
-            "/assets/images_qwenta/imgQwenta1.png",
-            "/assets/images_qwenta/imgQwenta2.png",
-            "/assets/images_qwenta/imgQwenta3.png",
-            "/assets/images_qwenta/imgQwenta4.png",
-            "/assets/images_qwenta/imgQwenta5.png",
-            "/assets/images_qwenta/imgQwenta6.png",
-            "/assets/images_qwenta/imgQwenta7.png",
-            "/assets/images_qwenta/imgQwenta8.png",
-            "/assets/images_qwenta/imgQwenta9.png"
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgCoverQwenta.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta1.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta2.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta3.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta4.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta5.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta6.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta7.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta8.png",
+            "/Mahmoudou_Portfolio/assets/images_qwenta/imgQwenta9.png"
         ]
     }
 ]
