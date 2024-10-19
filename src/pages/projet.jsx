@@ -40,7 +40,7 @@ function Projet() {
         }
     }, [containRef, options]);
     return (
-        <section ref={containRef} className='projet'>
+        <section id='project' ref={containRef} className='projet'>
             <h1 className='title-projet'><i className="fa-solid fa-angles-right"></i>Projects / {projet.title} / Pictures of the project</h1>
             <Caroussel key={projet.id} pictures={projet.pictures} />
             <div className='infos-projets'>
