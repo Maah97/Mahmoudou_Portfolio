@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useEffect, useRef, useMemo } from "react";
-import imgOups from '../assets/oups.png';
-import imgRobot from '../assets/robot.png';
+import imgOups from '../assets/oups.webp';
+import imgRobot from '../assets/robot.webp';
 
 function Error() {
     function AddClassActive() {
