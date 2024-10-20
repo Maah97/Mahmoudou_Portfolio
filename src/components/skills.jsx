@@ -20,6 +20,9 @@ function Skills() {
                 entry.target.classList.add('visible-competences');
                 observer.unobserve(entry.target);
             }
+            if (entry.intersectionRatio === 1) {
+                entry.target.classList.add('transition');
+            }
         });
     }
     useEffect(() => {
