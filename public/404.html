@@ -491,16 +491,6 @@
           }
         }
     </style>
-    <script defer>
-      const date = new Date();
-      const year = date.getFullYear();
-      const copyRight = document.querySelector('.droit-reserve');
-      copyRight.innerHTML = `
-        <i class="fa-regular fa-copyright"></i> ${year} Mahmoudou Abdoul Nganiyyou, all rights reserved
-      `
-      console.log(copyRight);
-      
-    </script>
   </head>
   <body>
     <header>
@@ -548,4 +538,12 @@
       </p>
     </footer>
   </body>
+  <script defer>
+    const date = new Date();
+    const year = date.getFullYear();
+    const copyRight = document.querySelector('.droit-reserve');
+    copyRight.innerHTML = `<i class="fa-regular fa-copyright"></i> ${year} Mahmoudou Abdoul Nganiyyou, all rights reserved`
+    console.log(copyRight);
+    
+  </script>
 </html>
