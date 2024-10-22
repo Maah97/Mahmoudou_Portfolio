@@ -1,5 +1,4 @@
 import React from "react";
-import { HashLink } from "react-router-hash-link";
 import { useEffect, useRef, useMemo } from "react";
 import MongoDB from '../assets/mongodb2.svg';
 import Lighthouse from '../assets/lighthouse2.svg'
