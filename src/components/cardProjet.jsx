@@ -8,14 +8,17 @@ import { NavLink } from "react-router-dom";
 
 function CardProjet(props) {
     const containRef = useRef(null);
-    const ratio = 0.1
+    const ratio = 0.1;
+    const scrollToTop = () => {
+        window.scrollTo(0, 0)
+    }
     const options = useMemo(() => {
         return {
             root: null,
             rootMargin: "0px",
             threshold: ratio
         };
-    }, [])
+    }, []);
      
     const handleIntersect = (entries, observer) => {
         entries.forEach(entry => {
@@ -36,7 +39,7 @@ function CardProjet(props) {
         }
     }, [containRef, options]);
     return (
-        <HashLink ref={containRef} to={'/projects/' + props.id + '#'} className="card-projet">
+        <NavLink onClick={scrollToTop} ref={containRef} to={'/projects/' + props.id} className="card-projet">
             <div className='conteneur-card-projet'>
                 <img src={props.imgCover} alt="site booki" className='img-cover' />
                 <p>{props.titre}</p>
@@ -55,7 +58,7 @@ function CardProjet(props) {
                 </div>
             </div>
             <div className="txt-hover"><p>Voir le projet</p></div>
-        </HashLink>
+        </NavLink>
     )
 };
 
