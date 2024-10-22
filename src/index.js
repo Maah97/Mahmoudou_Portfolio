@@ -18,7 +18,6 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/projects/:id" element={<Projet />} />
         <Route path="*" element={<Error/>} />
-        <Route path="*" element={<Navigate replace to='/404'/>} />
       </Routes>
       <Footer />
     </Router>
