@@ -1,10 +1,10 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import { NavHashLink } from "react-router-hash-link";
 import { useEffect, useRef, useMemo } from "react";
 import MongoDB from '../assets/mongodb2.svg';
 import Lighthouse from '../assets/lighthouse2.svg'
 import Notion from '../assets/notion-logo.svg'
+import { NavLink } from "react-router-dom";
 
 function CardProjet(props) {
     const containRef = useRef(null);
@@ -36,7 +36,7 @@ function CardProjet(props) {
         }
     }, [containRef, options]);
     return (
-        <NavHashLink ref={containRef} to={'/projects/' + props.id + '#project'} className="card-projet">
+        <NavLink ref={containRef} to={'/projects/' + props.id + '#project'} className="card-projet">
             <div className='conteneur-card-projet'>
                 <img src={props.imgCover} alt="site booki" className='img-cover' />
                 <p>{props.titre}</p>
@@ -55,7 +55,7 @@ function CardProjet(props) {
                 </div>
             </div>
             <div className="txt-hover"><p>Voir le projet</p></div>
-        </NavHashLink>
+        </NavLink>
     )
 };
 
