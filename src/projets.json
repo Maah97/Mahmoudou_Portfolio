@@ -65,7 +65,7 @@
         "categorie": "Accessibility, debugging and SEO optimization of a website",
         "link": {
             "github": "https://github.com/Maah97/Projet-4_D-buggez-et-optimisez-un-site-de-photographe",
-            "files": "https://maah97.github.io/Mahmoudou_Portfolio/static/media/Files_of_the_project_optimization_SEO_portfolio_Nina.2ca594be3b5bd07b8dbe.rar"
+            "files": "/Mahmoudou_Portfolio/Files_of_the_project_optimization_SEO_portfolio_Nina.2ca594be3b5bd07b8dbe.rar"
         },
         "technologie":[
             "Lighthouse"
@@ -138,7 +138,7 @@
         "categorie": "Project management with the agile method",
         "link": {
             "github": "",
-            "files": "/assets/Files_of_the_project_Menu_Maker_for_Qwenta.b515173a02f4cad38802.rar"
+            "files": "/Mahmoudou_Portfolio/Files_of_the_project_Menu_Maker_for_Qwenta.b515173a02f4cad38802.rar"
         },
         "technologie":[
             "Notion"
