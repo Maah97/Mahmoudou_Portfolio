@@ -56,7 +56,7 @@ function CardProjet(props) {
                     }
                 </div>
             </div>
-            <div className="txt-hover"><p>Voir le projet</p></div>
+            <div className="txt-hover"><p>See the project</p></div>
         </NavLink>
     )
 };
