@@ -17,8 +17,8 @@ root.render(
       <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/projects/:id" element={<Projet />} />
-        <Route path='/404' element={<Error/>} />
-        <Route path='*' element={<Navigate replace to='/404'/>} />
+        <Route path="*" element={<Error/>} />
+        <Route path="*" element={<Navigate replace to='/404'/>} />
       </Routes>
       <Footer />
     </Router>
