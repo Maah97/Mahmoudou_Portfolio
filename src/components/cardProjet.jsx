@@ -36,7 +36,7 @@ function CardProjet(props) {
         }
     }, [containRef, options]);
     return (
-        <NavLink ref={containRef} to={'/projects/' + props.id} className="card-projet">
+        <HashLink ref={containRef} to={'/projects/' + props.id + '#project'} className="card-projet">
             <div className='conteneur-card-projet'>
                 <img src={props.imgCover} alt="site booki" className='img-cover' />
                 <p>{props.titre}</p>
@@ -55,7 +55,7 @@ function CardProjet(props) {
                 </div>
             </div>
             <div className="txt-hover"><p>Voir le projet</p></div>
-        </NavLink>
+        </HashLink>
     )
 };
 
