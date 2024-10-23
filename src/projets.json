@@ -3,6 +3,8 @@
         "id": "1",
         "title": "Homepage of the travel agency Booki",
         "date": "May, 2024",
+        "skillsDev": "Integration of content according to a mockup and Implementation of a responsive interface with HTML and CSS",
+        "problems": "The difficulty encountered in this project was the implementation of the responsiveness of the site for the tablet and mobile version. To overcome this problem, we changed the sizing units of the site elements with the use of percentages.",
         "categorie": "Front-end development and responsive",
         "link": {
             "github": "https://github.com/Maah97/Projet-2-Page-d-accueil-Booki",
@@ -33,6 +35,8 @@
         "id": "2",
         "title": "Portfolio site of an interior architect",
         "date": "June, 2024",
+        "skillsDev": "Javascript programming with user data retrieval via forms. DOM element manipulation and user event management with JavaScript",
+        "problems": "We encountered some issues in this project when setting up the add project form and also setting up the Create operation in the API to add a new project in the project API. We solved this issue by consulting the API documentation on the syntax of the create operations",
         "categorie": "Front-end development with javascript for the creation of dynamic web pages",
         "link": {
             "github": "https://github.com/Maah97/Projet-3-Creez-une-page-web-dynamique-avec-JavaScript",
@@ -62,6 +66,8 @@
         "id": "3",
         "title": "Debugging and SEO optimization of a photographer's website",
         "date": "July, 2024",
+        "problems": "When optimizing performance, we encountered difficulties when converting and extending images. In order to solve this problem, we used image optimization software and the webp extension.",
+        "skillsDev": "Optimizing the performance and debugging of a website using Chrome DevTools. Writing a recipe book to test a site. Optimizing the SEO of a site and improving the accessibility of a site",
         "categorie": "Accessibility, debugging and SEO optimization of a website",
         "link": {
             "github": "https://github.com/Maah97/Projet-4_D-buggez-et-optimisez-un-site-de-photographe",
@@ -85,6 +91,8 @@
         "id": "4",
         "title": "Creation of a real estate rental web application with react",
         "date": "August, 2024",
+        "problems": "We have some difficulties in retrieving the data from the json file that contained the housing data. To solve this problem, we downloaded the json file and imported it into our React project",
+        "skillsDev": "Front-End Development with ReactJS with Configuring Navigation Between Application Pages Using React Router. Initializing an Application with Create React App and Developing Website Interface Elements Using React Components",
         "categorie": "Front end development with react and the SASS preprocessor of CSS",
         "link": {
             "github": "https://github.com/Maah97/Projet-5_Cr-ez-une-application-web-de-location-immobili-re-avec-React",
@@ -110,6 +118,8 @@
         "id": "5",
         "title": "Backend development for a book rating website",
         "date": "September, 2024",
+        "problems": "In this Backend project, the problem we encountered was setting up a book rating system by another user and updating the rating average at the same time. We solved this problem by using properties and functions that can be applied to tables.",
+        "skillsDev": "Using NodeJS and MongoDB with the implementation of a logical data model in accordance with the regulations. Implementing CRUD operations (Create, Read, Update and Delete) in a secure manner and Storing data in a secure manner",
         "categorie": "Backend development with NodeJS, Express and MongoDB",
         "link": {
             "github": "https://github.com/Maah97/Projet-6_D-veloppez-le-back-end-d-un-site-de-notation-de-livres",
@@ -135,9 +145,11 @@
         "id": "6",
         "title": "Planning the development of a menu maker website for restaurateurs",
         "date": "October, 2024",
+        "skillsDev": "Monitoring the progress of a project using a project management tool such as Notion. Writing the technical specifications of a web project based on functional needs. Breaking down into functionalities and tasks to prepare the development and presentation of the technical solution. Setting up a method for technological monitoring and versioning of a project with Git and Github. Installing a front-end development environment.",
+        "problems": "",
         "categorie": "Project management with the agile method",
         "link": {
-            "github": "",
+            "github": "The main problem encountered in this project was the classification of the different tasks to be carried out in the columns to do, in progress, to test and completed of the Kanban board. We solved this problem by analyzing each task according to its importance and its delivery time. We also had a problem when writing the technical specifications and the technological choice. To solve this problem, we wrote and detailed all the functionalities that should be integrated",
             "files": "/Mahmoudou_Portfolio/Files_of_the_project_Menu_Maker_for_Qwenta.rar"
         },
         "technologie":[

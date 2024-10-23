@@ -56,6 +56,16 @@ function Projet() {
                     <div className='ligne visible-projet'></div>
                     <p>{projet.description}</p>
                 </div>
+                <div className="skillsDev">
+                    <h2>Skills developed : </h2>
+                    <div className='ligne visible-projet'></div>
+                    <p>{projet.skillsDev}</p>
+                </div>
+                <div className="problems">
+                    <h2>Problem encountered : </h2>
+                    <div className='ligne visible-projet'></div>
+                    <p>{projet.problems}</p>
+                </div>
             </div>
         </section>
     )
