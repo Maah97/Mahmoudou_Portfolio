@@ -146,7 +146,7 @@
         "title": "Planning the development of a menu maker website for restaurateurs",
         "date": "October, 2024",
         "skillsDev": "Monitoring the progress of a project using a project management tool such as Notion. Writing the technical specifications of a web project based on functional needs. Breaking down into functionalities and tasks to prepare the development and presentation of the technical solution. Setting up a method for technological monitoring and versioning of a project with Git and Github. Installing a front-end development environment.",
-        "problems": "",
+        "problems": "The main problem encountered in this project was the classification of the different tasks to be carried out in the columns to do, in progress, to test and completed of the Kanban board. We solved this problem by analyzing each task according to its importance and its delivery time. We also had a problem when writing the technical specifications and the technological choice. To solve this problem, we wrote and detailed all the functionalities that should be integrated",
         "categorie": "Project management with the agile method",
         "link": {
             "github": "The main problem encountered in this project was the classification of the different tasks to be carried out in the columns to do, in progress, to test and completed of the Kanban board. We solved this problem by analyzing each task according to its importance and its delivery time. We also had a problem when writing the technical specifications and the technological choice. To solve this problem, we wrote and detailed all the functionalities that should be integrated",
