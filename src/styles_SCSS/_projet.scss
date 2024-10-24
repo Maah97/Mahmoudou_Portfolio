@@ -203,12 +203,17 @@
     transform: translateY(30px);
 }
 
-.date-et-github, .skillsDev {
+.problems {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.date-et-github {
     opacity: 0;
     transform: translateX(-10px);
 }
 
-.description, .problems {
+.description {
     opacity: 0;
     transform: translateX(10px);
 }

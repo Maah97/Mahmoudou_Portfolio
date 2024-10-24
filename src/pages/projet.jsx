@@ -31,12 +31,14 @@ function Projet() {
             observer.observe(contain.querySelector('.title-projet'));
             observer.observe(contain.querySelector('.date-et-github'));
             observer.observe(contain.querySelector('.description'));
+            observer.observe(contain.querySelector('.problems'));
         }
         return () => {
             observer.unobserve(contain);
             observer.unobserve(contain.querySelector('.title-projet'));
             observer.unobserve(contain.querySelector('.date-et-github'));
             observer.unobserve(contain.querySelector('.description'));
+            observer.unobserve(contain.querySelector('.problems'));
         }
     }, [containRef, options]);
     return (
