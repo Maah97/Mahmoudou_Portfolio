@@ -50,16 +50,12 @@ function Projet() {
                     <p><span>Date : </span>{projet.date}</p>
                     {projet.link.github === "" ? "" : <p><span>Github : </span><a href={projet.link.github} target='_blank' rel='noreferrer'>This project is here</a></p>}
                     {projet.link.files === "" ? "" : <p><span>Files : </span><a href={projet.link.files} download="Files_of_the_project.rar" target='_blank' rel='noreferrer'>Download the files of the project here</a></p>}
+                    <p><span>Skills developed : </span>{projet.skillsDev}</p>
                 </div>
                 <div className="description">
                     <h2>Description of the project : </h2>
                     <div className='ligne visible-projet'></div>
                     <p>{projet.description}</p>
-                </div>
-                <div className="skillsDev">
-                    <h2>Skills developed : </h2>
-                    <div className='ligne visible-projet'></div>
-                    <p>{projet.skillsDev}</p>
                 </div>
                 <div className="problems">
                     <h2>Problem encountered : </h2>
