@@ -40,7 +40,7 @@ function CardProjet(props) {
     return (
         <NavLink onClick={scrollToTop} ref={containRef} to={'/projects/' + props.id} className="card-projet">
             <div className='conteneur-card-projet'>
-                <img src={props.imgCover} alt="site booki" className='img-cover' />
+                <img src={props.imgCover} alt="cover homepage of the project" className='img-cover' />
                 <p>{props.titre}</p>
                 <div className="ligne"></div>
                 <p>{props.category}</p>
