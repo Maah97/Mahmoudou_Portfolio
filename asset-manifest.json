@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mahmoudou_Portfolio/static/css/main.e1e9f8e6.css",
-    "main.js": "/Mahmoudou_Portfolio/static/js/main.d02a6a49.js",
+    "main.js": "/Mahmoudou_Portfolio/static/js/main.980cc51a.js",
     "static/media/CV_MAHMOUDOU_ANGLAIS.pdf": "/Mahmoudou_Portfolio/static/media/CV_MAHMOUDOU_ANGLAIS.75aa7c4d63846c122a21.pdf",
     "static/media/robot.webp": "/Mahmoudou_Portfolio/static/media/robot.ada993db401c121eb607.webp",
     "static/media/oups.webp": "/Mahmoudou_Portfolio/static/media/oups.81063502ecb7fc7fd1af.webp",
@@ -18,11 +18,12 @@
     "static/media/logo-twitter.svg": "/Mahmoudou_Portfolio/static/media/logo-twitter.10d897fdb5d8ab5fb64ee36b763330f6.svg",
     "static/media/en-language-icon.webp": "/Mahmoudou_Portfolio/static/media/en-language-icon.3d1b8576fa031e7af914.webp",
     "static/media/twitter.webp": "/Mahmoudou_Portfolio/static/media/twitter.bc588d017af473a46f09.webp",
+    "static/media/getFetch.cjs": "/Mahmoudou_Portfolio/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.e1e9f8e6.css.map": "/Mahmoudou_Portfolio/static/css/main.e1e9f8e6.css.map",
-    "main.d02a6a49.js.map": "/Mahmoudou_Portfolio/static/js/main.d02a6a49.js.map"
+    "main.980cc51a.js.map": "/Mahmoudou_Portfolio/static/js/main.980cc51a.js.map"
   },
   "entrypoints": [
     "static/css/main.e1e9f8e6.css",
-    "static/js/main.d02a6a49.js"
+    "static/js/main.980cc51a.js"
   ]
 }
