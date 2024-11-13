@@ -6,12 +6,14 @@ import Projet from './pages/projet';
 import Error from './pages/error'
 import Header from "./components/header";
 import Footer from "./components/footer";
+import reportWebVitals from './reportWebVitals';
+import './i18n';
 import './styles_SCSS/app.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename='/Mahmoudou_Portfolio' >
+    <Router >
       <Header />
       <Routes >
         <Route path="/" element={<Home />} />
