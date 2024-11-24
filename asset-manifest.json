@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mahmoudou_Portfolio/static/css/main.adc08318.css",
-    "main.js": "/Mahmoudou_Portfolio/static/js/main.f8792786.js",
+    "main.js": "/Mahmoudou_Portfolio/static/js/main.98a6ce0e.js",
     "static/media/CV_MAHMOUDOU_FR.pdf": "/Mahmoudou_Portfolio/static/media/CV_MAHMOUDOU_FR.d8b6326bcf7a47649720.pdf",
     "static/media/CV_MAHMOUDOU_EN.pdf": "/Mahmoudou_Portfolio/static/media/CV_MAHMOUDOU_EN.5f26e0e133dc7fb0c0e7.pdf",
     "static/media/robot.webp": "/Mahmoudou_Portfolio/static/media/robot.ada993db401c121eb607.webp",
@@ -25,10 +25,10 @@
     "static/media/twitter.webp": "/Mahmoudou_Portfolio/static/media/twitter.bc588d017af473a46f09.webp",
     "static/media/getFetch.cjs": "/Mahmoudou_Portfolio/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.adc08318.css.map": "/Mahmoudou_Portfolio/static/css/main.adc08318.css.map",
-    "main.f8792786.js.map": "/Mahmoudou_Portfolio/static/js/main.f8792786.js.map"
+    "main.98a6ce0e.js.map": "/Mahmoudou_Portfolio/static/js/main.98a6ce0e.js.map"
   },
   "entrypoints": [
     "static/css/main.adc08318.css",
-    "static/js/main.f8792786.js"
+    "static/js/main.98a6ce0e.js"
   ]
 }
